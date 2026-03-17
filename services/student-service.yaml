@@ -28,10 +28,10 @@ server:
   port: 0
   forward-headers-strategy: framework
 
-  eureka:
+eureka:
     instance:
       instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
-
-app:
+gcp:
   storage:
-    path: ${user.home}/.ijse/eca/students
+    bucket: capstone-project-bucket-1
+    prefix: students

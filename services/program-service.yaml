@@ -4,7 +4,7 @@ spring:
       enabled: true
 
   mongodb:
-    uri: mongodb://root:B4_RfIjmIOMevQcFZFblmFfM-dW8WK1YUS9ruQ_IZX1tFPjW@a6c75565-b8e2-4110-bd51-9e32c1c89eaf.asia-southeast1.firestore.goog:443/db-capstone?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
+    uri: mongodb://root:E2SQNt5qxK7cPJp_o0WxE3OCf4M54qwpUUuHzIzmiV-8N06b@959e76b7-9c35-4c93-a43c-9c40c6aaa9a2.asia-southeast1.firestore.goog:443/db-capstone-2?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
 
 
 server:
